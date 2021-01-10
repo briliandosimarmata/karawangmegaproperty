@@ -1,0 +1,100 @@
+.title{
+    font-family: sans-serif;
+    color: #dc2d5e;
+    text-align: center;
+}
+.tabContainer{
+    width: 100%;
+    height: 350px;
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+}
+.tabContainer .buttonContainer button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .tabPanel{
+    height: 85%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: none;
+}
+
+
+.tab #nextOption{
+    float: left;
+    border-radius: 0px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    transition: 0.3s;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: none;
+    border-color: rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+    color: black;
+    font-weight: 500;
+  }
+
+  .tab #defaultOpen {
+    float: left;
+    border-radius: 0px;
+    border-color: rgb(211, 211, 211);
+    outline: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    transition: 0.3s;
+    margin: 3px;
+    margin-left: none;
+    margin-bottom: none;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    font-weight: 500;
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab #defaultOpen:hover {
+    background-color: #ddd !important;
+    color: black !important;
+  }
+  .tab #nextOption:hover {
+    background-color: #ddd !important;
+    color: black !important;
+  }
+  
+  /* Create an active/current tablink class */
+  .spec {
+      width: 100%;
+  }
+
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-sizing: border-box;
+  }
